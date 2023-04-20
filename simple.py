@@ -81,4 +81,4 @@ async def on_message(msg: discord.Message) -> None:
 
 
 if __name__ == '__main__':
-    client.run('MTA5ODI0NDc5MzI0ODc4NDQ0NA.G3aYh9.1v5gfWwCWEIm8M_10jhg2l00iFE6IRYVXVRp5o')
+    client.run('enter bot token here')
