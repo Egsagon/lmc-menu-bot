@@ -7,7 +7,8 @@ def is_void(color: tuple[int]) -> bool:
 
 def walk(image: Image, start: tuple[int], direction: str) -> tuple[int]:
     '''
-    # TODO
+    Simulate a pointer walking from a point in a certain direction
+    until it touches something.
     '''
     
     coords = start
