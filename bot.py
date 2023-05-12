@@ -10,7 +10,9 @@ import utils
 
 # Settings
 TRIGGER = '?menu'
-TOKEN = 'ENTER DISCORD BOT TOKEN HERE'
+
+with open('/etc/secrets/token') as f:
+    TOKEN = f.read().strip()
 
 # Initialise client
 bot = discord.Client(intents = discord.Intents.all())
